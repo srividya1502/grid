@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            padding: 10px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            vertical-align: middle;
+            display: inline-block;
+        }
+        .gridimg > div{
+             display: flex;
+             justify-content: center;
+             align-items: center;
+        }
+        .gridimg > div > img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .gridimg {
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+            grid-auto-rows: 200px;
+            grid-auto-flow: dense; 
+        }
+          .abc{
+           justify-content: center;
+           align-content: center;
+          }
+    </style>
+</head>
+<body>
+    <div class="gridimg">
+        <div>
+            <img src="https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg" alt="img">
+            </div>
+            <div>
+            <img src="https://media.istockphoto.com/id/1419410282/photo/silent-forest-in-spring-with-beautiful-bright-sun-rays.jpg?s=612x612&w=0&k=20&c=UHeb1pGOw6ozr6utsenXHhV19vW6oiPIxDqhKCS2Llk=" alt="">
+             </div>
+             <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqGK3diR3Zi-mnOXEaj-3ewmFyRYVxGzVzZw&s" alt="">
+        </div>
+            <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIWSPkmMT6RX_5IvnBRmmaoO7MqeohVn0kTj1dXc3H-KxhtfX_s4nsgWkWr3YpsF2Rw0c&usqp=CAU" alt="">
+        </div>
+            <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEkA9gblpiJEJfpBwChxch8UVTI4VkPKpkSA&s" alt="">
+        </div>
+        
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg5C1ZvRQN1S8wR6X3V3zNoxOAY6PTxWwiDA&s" alt="img"></div>
+            <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFCeqcQln9TquiGb1k3eJnJqARaUr3umqXFw&s" alt=""></div>
+            <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQczorlgkqplZTkCfhwowi6nUjBWlzrKC7YbHc0o7Wr-ASlbIZs1xFBgrIicR92f_zagGA&usqp=CAU" alt="">
+        </div>
+           <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdNQQ7fhk27ymnygeeOof3wJ0lu-4Z18qKlA&s" alt="">
+            </div>
+            <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj6yD_sVhrnxluoya9OVTYVoULB3MLDiIVSw&s" alt="">
+           </div>
+        <div>
+            <img src="https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg" alt="img">
+            </div>
+            <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTK500IQ_2NpiNk7Ed_4phbWDtLSZ7QGWuNA&s" alt=""></div>
+            <div>
+            <img class="abc" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg1Qcz_jL29QVI7sXkNtbJ-AGM_XAhHFNEPA&s" alt=""></div>
+            <div>
+            <img class="abc" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkGLtZgjllhdhJUi8EjTdnq-0cOgB_7htCcg&s" alt=""></div>
+            <div>
+            <img class="abc" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP4SPm_7JYOz4firDmPHDZGrUxVqcumPWtdQ&s" alt=""> 
+          </div>
+    </div>
+</body>
+</html>
